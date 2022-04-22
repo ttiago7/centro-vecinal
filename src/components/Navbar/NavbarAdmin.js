@@ -15,6 +15,7 @@ import {
   XIcon,
 } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
+import logo from "../../assets/images/bandera.png";
 
 const solutions = [
   {
@@ -69,11 +70,7 @@ export default function Example() {
             <div className="pr-2 md:pr-6 lg:pr-6">
               <a href="#">
                 <span className="sr-only">Workflow</span>
-                <img
-                  className="h-8 w-auto sm:h-10"
-                  src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                  alt="example"
-                />
+                <img className="h-8 w-auto sm:h-10" src={logo} alt="example" />
               </a>
             </div>
             <div className="-mr-2 -my-2 md:hidden">

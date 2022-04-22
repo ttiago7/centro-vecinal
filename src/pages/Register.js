@@ -1,9 +1,6 @@
-import React from 'react'
-
+import Registro from "../components/Forms/Register";
 const Register = () => {
-  return (
-    <div>Register</div>
-  )
-}
+  return <Registro />;
+};
 
-export default Register
+export default Register;

@@ -1,15 +1,11 @@
 import React from "react";
-import NavbarAdmin from "../components/Navbar/NavbarAdmin";
-// import NavbarPublic from "../components/Navbar/Onlynavbar";
-import Hero from "../components/Hero/Hero";
+
+import NavbarPublic from "../components/Navbar/Onlynavbar";
 
 function Home() {
   return (
     <>
-      <NavbarAdmin />
-      {/* <NavbarPublic/> */}
-      {/* <NavbarPublic /> */}
-      <Hero />
+      <NavbarPublic />
     </>
   );
 }
